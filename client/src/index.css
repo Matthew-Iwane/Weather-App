@@ -12,7 +12,6 @@ body {
 }
 
 
-
 /* Navigation Bar */
 .navbar {
     display: flex;
@@ -49,4 +48,33 @@ body {
 .nav-elements a:hover {
     text-decoration: none;
     color: rgb(118, 118, 118);
+}
+
+
+/* Weather Container */
+.weather-container {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.weather-info-body {
+    width: 40%;
+    height: auto;
+    background-color: rgb(193, 216, 228);
+    margin-top: 3em;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.default-weather-options {
+    display: flex;
+    margin-top: 2em;
+    gap: 1em;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
 }
